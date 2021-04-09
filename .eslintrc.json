@@ -13,6 +13,8 @@
         "linebreak-style": 0,
         "no-console": "off",
         "no-unused-vars":"off",
-        "no-debugger": "off"
+        "no-debugger": "off",
+        "max-len": "off",
+        "no-else-return": "off"
     }
 }
