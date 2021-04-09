@@ -52,6 +52,19 @@ td, th {
   background: white;
 }
 
+.cards{
+  margin: 2rem auto;
+  padding: 2rem;
+  display:flex
+}
+
+.playerCard{
+  background: white;
+  padding: 2rem;
+  display:flex;
+  align-content: center;
+  flex-direction: column;
+}
 .box, .wrapper {
   box-shadow: 0 0 3px 5px rgba(0,0,0,0.08653);
 }
@@ -100,6 +113,10 @@ h6 {
   margin-top: 0;
   line-height: 1;
   text-shadow: var(--text-shadow);
+}
+
+h2{
+  color: rgb(180, 179, 179);
 }
 .wrapper h1,
 .wrapper h2,
